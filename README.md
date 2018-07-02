@@ -861,7 +861,10 @@
 ## 857. 
 ## 858. 
 ## 859. 
-## 860. 
+## 860. [Lemonade Change](https://leetcode.com/problems/lemonade-change/description/)
+### Intuition
+Keep track of the change (5 and 10 dollar bills). Subtract the number of change when encountered a bill with 10 or 20. Greedy solution in the sense that we would prefer to give out a $10 change first when receiving a bill of 20.
+
 ## 861. 
 ## 862. 
 ## 863. 
