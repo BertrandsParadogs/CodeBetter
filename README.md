@@ -253,7 +253,18 @@
 ## 249. 
 ## 250. 
 ## 251. 
-## 252. 
+## 252. [Meeting Rooms](https://leetcode.com/problems/meeting-rooms/description/)
+### Intuition
+Interval Scheduling problem. Determines if there are any overlapping intervals.
+First sort the intervals in ascending order based on their start time. Then determine if there are any overlap by checking the head and tail of two adjacent intervals.
+
+### WIL
+#### Java Comparator within Sort Syntax
+`Arrays./Collections.sort(array/list, new Comparator<T> () {public int compare (O o1, O o2)()});`
+
+#### Compare to
+Ascending order --> `i1 - i2`
+Descending order --> `i2 - i1`
 ## 253. 
 ## 254. 
 ## 255. 
