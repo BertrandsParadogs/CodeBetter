@@ -714,7 +714,10 @@ Just do it by simulation.
 ## 693. 
 ## 694. 
 ## 695. 
-## 696. 
+## 696. [Count Binary Substrings](https://leetcode.com/problems/count-binary-substrings/description/)
+### Intuition
+Each time we encounter a different digit, we keep the length of the previous segment and increment the result for every digit forward until 1) the length of the current segment exceeds that of the previous segment. or 2) we encounter the next different digit
+
 ## 697. 
 ## 698. 
 ## 699. 
