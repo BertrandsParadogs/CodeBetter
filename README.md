@@ -631,7 +631,9 @@ Just use bitCount on the XOR result.
 ## 614. 
 ## 615. 
 ## 616. 
-## 617. 
+## 617. [Merge Two Binary Tree](https://leetcode.com/problems/merge-two-binary-trees/description/)
+### Intuition
+Traverse through the tree. If both nodes are null, the resulting node is null. If either of them is not null, then we create a new TreeNode with the value equal to their sum. Then we use recursion to repeat the process on the children of the current node.
 ## 618. 
 ## 619. 
 ## 620. 
@@ -671,7 +673,9 @@ Just use bitCount on the XOR result.
 ## 654. 
 ## 655. 
 ## 656. 
-## 657. 
+## 657. [Judge Route Circle](https://leetcode.com/problems/judge-route-circle/description/)
+### Intuition
+Just do it by simulation.
 ## 658. 
 ## 659. 
 ## 660. 
