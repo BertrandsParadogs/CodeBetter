@@ -473,7 +473,9 @@ Descending order --> `i2 - i1`
 ## 458. 
 ## 459. 
 ## 460. 
-## 461. 
+## 461. [Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)
+### Intuition
+Just use bitCount on the XOR result.
 ## 462. 
 ## 463. 
 ## 464. 
@@ -926,7 +928,9 @@ Do in place swap whenever possible for better space complexity.
 ## 849. 
 ## 850. 
 ## 851. 
-## 852. 
+## 852. [Peak Index in a Mountain Array](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)
+### Intuition
+Binary Search
 ## 853. 
 ## 854. 
 ## 855. 
