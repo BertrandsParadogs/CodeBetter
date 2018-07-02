@@ -864,7 +864,10 @@ public int numJewelsInStones(String J, String S) {
 ## 793. 
 ## 794. 
 ## 795. 
-## 796. 
+## 796. [Rotate String](https://leetcode.com/problems/rotate-string/description/)
+### Intuition
+All rotations of `A` are contained in `B+B`. Thus, we can simply check whether `A` is a substring of `B+B`. We also need to check `A.length == B.length`, otherwise we will fail cases like `A = "a", B = "aa"`.
+
 ## 797. 
 ## 798. 
 ## 799. 
