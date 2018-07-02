@@ -889,7 +889,24 @@ Use a HashSet to store the patterns we've seen. Check the size in the end to get
 ## 829. 
 ## 830. 
 ## 831. 
-## 832. 
+## 832. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
+### Intuition
+Just do in place element swapping. Use (C+1) / 2 to iterate over all indexes i in the first half of the row, inlcuding the center.
+
+### WIL
+Standard element swapping
+```
+int tmp = A;
+A = B;
+B = tmp;
+```
+Use XOR to flip bits
+```
+1^1 = 0
+0^1 = 1
+```
+Do in place swap whenever possible for better space complexity.
+
 ## 833. 
 ## 834. 
 ## 835. 
