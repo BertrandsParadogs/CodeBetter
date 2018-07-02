@@ -772,7 +772,9 @@ Descending order --> `i2 - i1`
 ## 757. 
 ## 758. 
 ## 759. 
-## 760. 
+## 760. [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/description/)
+### Intuition
+Very straightforward using HashMap.
 ## 761. 
 ## 762. 
 ## 763. 
@@ -857,7 +859,9 @@ public int numJewelsInStones(String J, String S) {
 ## 801. 
 ## 802. 
 ## 803. 
-## 804. 
+## 804. [Unique Morse Code Words](https://leetcode.com/problems/unique-morse-code-words/description/)
+### Intuition
+Use a HashSet to store the patterns we've seen. Check the size in the end to get the number of unique morse code words.
 ## 805. 
 ## 806. 
 ## 807. 
