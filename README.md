@@ -783,7 +783,48 @@ Descending order --> `i2 - i1`
 ## 768. 
 ## 769. 
 ## 770. 
-## 771. 
+## 771. [Jewels and Stones](https://leetcode.com/problems/jewels-and-stones/description/)
+### Intuition
+Several ways to approach this problem, each with different space and time complexity.
+
+#### String replaceAll
+```
+public int numJewelsInStones(String J, String S) {
+    return S.replaceAll("[^" + J + "]", "").length();
+}
+```
+Can be expensive, but a very interesting solution using regular expression.<br>
+It removes all the characters that is not a jewel in the stones string. We are left with jewels and just need to find the length of the remaining string.
+
+#### Brute force
+Time: O(JS)
+Space: O(J + S)
+```java
+    public int numJewelsInStones(String J, String S) {
+        // Brute force approach
+        int result = 0;
+        for (char chJ : J.toCharArray())
+            for (char chS : S.toCharArray())
+                if (chJ == chS)
+                    result++;
+        return result;
+    }
+```
+
+#### Store the Jewels
+Time: O(J+S)
+Space: O(1)
+The idea is to store the jewels in an array of length 58, which is 'z' - 'A'. And check for each character in stone array if it is a jewel.<br>
+A HashSet should work too.
+```java
+public int numJewelsInStones(String J, String S) {
+        int res = 0;
+        Set setJ = new HashSet();
+        for (char j: J.toCharArray()) setJ.add(j);
+        for (char s: S.toCharArray()) if (setJ.contains(s)) res++;
+        return res;
+    }
+```
 ## 772. 
 ## 773. 
 ## 774. 
