@@ -746,7 +746,11 @@ Just do it by simulation.
 ## 725. 
 ## 726. 
 ## 727. 
-## 728. 
+## 728. [Self Dividing Numbers](https://leetcode.com/problems/self-dividing-numbers/description/)
+### Intuition
+For each number, check if every digit can divide the number without remainder.
+Pretty self-explanatory problem.
+
 ## 729. 
 ## 730. 
 ## 731. 
