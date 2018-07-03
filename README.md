@@ -122,7 +122,12 @@
 ## 118. 
 ## 119. 
 ## 120. 
-## 121. 
+## 121. [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)
+### Intuition
+Problem that I have seen before in Algorithm class. We can use Kadane's Algorithm to find the max subarray. The idea is to calculate the difference of the original array and find a contiguous subarray giving the max profit. If the difference falls beflow 0, reset it to 0.
+
+### WIL
+For comparing max with the current value, we could simply use `Math.max(cur, max)` instead of an if-statement.
 ## 122. 
 ## 123. 
 ## 124. 
