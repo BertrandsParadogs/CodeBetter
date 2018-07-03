@@ -905,7 +905,10 @@ All rotations of `A` are contained in `B+B`. Thus, we can simply check whether `
 Use a HashSet to store the patterns we've seen. Check the size in the end to get the number of unique morse code words.
 ## 805. 
 ## 806. 
-## 807. 
+## 807. [Max Increase to Keep City Skyline](https://leetcode.com/problems/max-increase-to-keep-city-skyline/description/)
+### Intuition
+The first loop of grid calcule maximum for every row and every col.
+The second loop calculate the maximum increasing height for every building.
 ## 808. 
 ## 809. 
 ## 810. 
