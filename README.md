@@ -638,7 +638,9 @@ Just use bitCount on the XOR result.
 ## 603. 
 ## 604. 
 ## 605. 
-## 606. 
+## 606. [Construct String from Binary Tree](https://leetcode.com/problems/construct-string-from-binary-tree/description/)
+### Intuition
+Preorder tree traversal using DFS. The tricky part is finding out under which conditions do we add the parenthesis.
 ## 607. 
 ## 608. 
 ## 609. 
