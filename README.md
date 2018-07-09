@@ -444,7 +444,11 @@ Descending order --> `i2 - i1`
 ## 401. 
 ## 402. 
 ## 403. 
-## 404. 
+## 404. [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/)
+### Intuition
+I first made the mistake of counting all the left nodes, but the question is asking only for the left *leaves*. Should read the problem more carefully before start coding. Once that is cleared up the solution is easy to reach. For each node we just need to check if its left node is a leaf (two null pointers).
+
+Always think of some actual examples before writing the code. That can easily help you avoid some silly mistakes such as misread the problem.
 ## 405. 
 ## 406. 
 ## 407. 
