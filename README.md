@@ -503,7 +503,9 @@ This approach is based on the idea that adding 1 to all the elements except one 
 To avoid overflow of sum, it's best to find the min first and increment the area in each iteration.
 
 ## 454. 
-## 455. 
+## 455. [Assign Cookies](https://leetcode.com/problems/assign-cookies/description/)
+### Intuition
+Greedy `O(NlogN)` solution. First sort the two arrays. Then start from the back, use two pointers to keep track of the position. If a child's greediness can fit in a cookies' size, then assign that cookie to that child. Otherwise that children will not receive any cookie. The somewhat tricky part was to figure out the correct index. But that could be done with some examples and checking. A forward pass that starts from the least greedy may work too.
 ## 456. 
 ## 457. 
 ## 458. 
