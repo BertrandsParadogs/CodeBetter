@@ -54,7 +54,12 @@
 ## 50. 
 ## 51. 
 ## 52. 
-## 53. 
+## 53. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)
+### Intuition
+Dynamic Programming. Similar to the road segment one we saw in algo class.
+We find the maximum sum we can achieve at each index which has the recurrence relation as follows:
+`sum[i] = cost[i] + max(sum[i-1], 0)`
+
 ## 54. 
 ## 55. 
 ## 56. 
