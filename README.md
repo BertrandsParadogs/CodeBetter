@@ -488,7 +488,11 @@ Descending order --> `i2 - i1`
 ## 450. 
 ## 451. 
 ## 452. 
-## 453. 
+## 453. [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/description/)
+### Intuition
+This approach is based on the idea that adding 1 to all the elements except one is equivalent to decrementing 1 from a single element, since we are interested in the relative levels of the elements which need to be equalized. Thus, the problem is simplified to find the number of decrement operations required to equalize all the elements of the given array. For finding this, it is obvious that we'll reduce all the elements of the array to the minimum element. Think of this as an island/ocean case where the minimum element represent the sea level. We would like to know the area of the island that lies above the sea so we find the sum of all area and subtract the sea `n * min` to get the desired area.
+To avoid overflow of sum, it's best to find the min first and increment the area in each iteration.
+
 ## 454. 
 ## 455. 
 ## 456. 
@@ -743,7 +747,10 @@ Just do it by simulation.
 ### Intuition
 Each time we encounter a different digit, we keep the length of the previous segment and increment the result for every digit forward until 1) the length of the current segment exceeds that of the previous segment. or 2) we encounter the next different digit
 
-## 697. 
+## 697. [Degree of an Array](https://leetcode.com/problems/degree-of-an-array/description/)
+### Intuition
+First I find all the modes (numbers with max degrees). Then for each mode, I find the index of their first and last occurrence in the array to get the min length of subarray for that mode.
+The minimum of these lengths is the answer.
 ## 698. 
 ## 699. 
 ## 700. 
