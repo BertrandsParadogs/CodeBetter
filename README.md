@@ -509,7 +509,10 @@ To avoid overflow of sum, it's best to find the min first and increment the area
 ### Intuition
 Just use bitCount on the XOR result.
 ## 462. 
-## 463. 
+## 463. [Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)
+### Intuition
+For each piece of land, we explore the connected blocks. We add one to the perimeter if it is water or out of bound.
+
 ## 464. 
 ## 465. 
 ## 466. 
