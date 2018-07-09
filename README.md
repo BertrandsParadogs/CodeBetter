@@ -538,7 +538,9 @@ Just use bitCount on the XOR result.
 ## 489. 
 ## 490. 
 ## 491. 
-## 492. 
+## 492. [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/description/)
+### Intuition
+Find the square root and decrement from there. The first element that can evenly divide the number is the width.
 ## 493. 
 ## 494. 
 ## 495. 
