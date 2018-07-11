@@ -563,7 +563,25 @@ Find the square root and decrement from there. The first element that can evenly
 ## 503. 
 ## 504. 
 ## 505. 
-## 506. 
+## 506. [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)
+### Intuition
+First store the orginal indices of the numbers and then sort and convert corresponding elements.
+
+### WIL
+`Arrays.sort(pair, (a, b) -> (b[0] - a[0]));`
+This sorts an index array based the element comparison of the orignal array. Very smart approach using lambda.
+
+```java
+for (all indices) {
+	if(index is 0){
+	gold
+	}else if(index is 1){
+	silver
+	} ...
+}
+```
+This saves the step of checking the orignal array length.
+
 ## 507. 
 ## 508. 
 ## 509. 
