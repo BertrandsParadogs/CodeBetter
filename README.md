@@ -742,7 +742,11 @@ Just do it by simulation.
 ## 658. 
 ## 659. 
 ## 660. 
-## 661. 
+## 661. [Image Smoother](https://leetcode.com/problems/image-smoother/description/)
+### Intuition
+I intially thought the only possible values are 0 and 1 after looking at the example. But apparently I misread the problem.
+But the approach is not that different, first check inbound, then sum up. Pretty straightforward.
+
 ## 662. 
 ## 663. 
 ## 664. 
