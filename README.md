@@ -114,7 +114,9 @@ We find the maximum sum we can achieve at each index which has the recurrence re
 ## 105. 
 ## 106. 
 ## 107. 
-## 108. 
+## 108. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+### Intuition
+Recursion and binary search (sort of).
 ## 109. 
 ## 110. 
 ## 111. 
