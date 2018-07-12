@@ -298,7 +298,10 @@ Descending order --> `i2 - i1`
 ## 253. 
 ## 254. 
 ## 255. 
-## 256. 
+## 256. [Paint House](https://leetcode.com/problems/paint-house/description/)
+### Intuition
+Dynamic Programming. Each cell stores the minimum cost so far. Compare three at the end.
+`O(N)`
 ## 257. 
 ## 258. 
 ## 259. 
