@@ -1016,7 +1016,10 @@ Do in place swap whenever possible for better space complexity.
 ## 841. 
 ## 842. 
 ## 843. 
-## 844. 
+## 844. [Backspace String Compare](https://leetcode.com/problems/backspace-string-compare/description/)
+### Intuition
+We could do it with O(N) space using string comparison and StringBuilder.
+We could also do it backward, skipping a character when encounter a `'#'`. What is worth noting is how to deal with consecutive `'#'s`. We use a variable to keep the number of `'#'` encountered starting at the current index and skip indices based on the count until we reach a lowercase letter that is not `#` and the skip count is zero.Backspace String Compare
 ## 845. 
 ## 846. 
 ## 847. 
