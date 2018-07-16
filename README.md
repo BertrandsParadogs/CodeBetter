@@ -120,7 +120,9 @@ Recursion and binary search (sort of).
 ## 109. 
 ## 110. 
 ## 111. 
-## 112. 
+## 112. [Path Sum](https://leetcode.com/problems/path-sum/description/)
+### Intuition
+DFS. Check Leaf. Update sum at each level.
 ## 113. 
 ## 114. 
 ## 115. 
