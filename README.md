@@ -1027,7 +1027,27 @@ Do in place swap whenever possible for better space complexity.
 ## 833. 
 ## 834. 
 ## 835. 
-## 836. 
+## 836. [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/discuss/132340/C++JavaPython-1-line-Solution-1D-to-2D)
+### Intuition
+By lee himself.
+Before we do it in 2D plane, let's try it in 1D.
+Given 2 segment `(left1, right1), (left2, right2)`, how can we check whether they overlap?
+If these two intervals overlap, it should exist an number `x`,
+
+`left1 < x < right1 && left2 < x < right2`
+
+`left1 < x < right2 && left2 < x < right1`
+
+`left1 < right2 && left2 < right1`
+
+This is the sufficient and necessary condition for two segments overlap.
+
+Explanation:
+For 2D, if two rectangle overlap both on x and y, they overlap in the plane.
+
+Time Complexity:
+O(1)
+
 ## 837. 
 ## 838. 
 ## 839. 
