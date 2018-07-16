@@ -464,7 +464,9 @@ Always think of some actual examples before writing the code. That can easily he
 ## 412. 
 ## 413. 
 ## 414. 
-## 415. 
+## 415. [Add Strings](https://leetcode.com/problems/add-strings/description/)
+### Intuition
+Start from the back and use a StringBuilder to keep the previous digits. Adding `carry == 1` to the conditional statement of the for loop handles the case of same length numbers with a carry digit at the most significant digit.
 ## 416. 
 ## 417. 
 ## 418. 
