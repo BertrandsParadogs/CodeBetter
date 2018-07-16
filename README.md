@@ -566,7 +566,10 @@ Find the square root and decrement from there. The first element that can evenly
 ## 501. 
 ## 502. 
 ## 503. 
-## 504. 
+## 504. [Base 7](https://leetcode.com/problems/base-7/description/)
+### Intuition
+Have to handle the negative case. Append the modulo and divide.
+
 ## 505. 
 ## 506. [Relative Ranks](https://leetcode.com/problems/relative-ranks/description/)
 ### Intuition
