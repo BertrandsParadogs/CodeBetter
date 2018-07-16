@@ -631,7 +631,12 @@ This saves the step of checking the orignal array length.
 ## 548. 
 ## 549. 
 ## 550. 
-## 551. 
+## 551. [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/description/) 
+### Intuition
+An easy string question.
+I use `indexOf` and `lastIndexOf` to check if there is more than 1 Absent. Continuous 3 L is straightforward.
+Another way is to use regex matching.
+
 ## 552. 
 ## 553. 
 ## 554. 
@@ -990,6 +995,10 @@ The second loop calculate the maximum increasing height for every building.
 I thought about using a char variable to store the character of the current group and use a count to keep track of the group size. Once we encounter a different character, we would update the count and at the range of the group into the result list.
 
 The solution uses two pointers, one for tracking the start position of a group, and the other to move forward in the String until encountering a different character. This saves the step of computing the starting index but does not improve the space or time complexity.
+
+    ### WIL
+    #### How to create an ArrayList of several elements
+    `Arrays.asList(e1, e2, ...)`
 
 ## 831. 
 ## 832. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
