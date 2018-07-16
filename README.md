@@ -457,7 +457,10 @@ Dynamic Programming. Each cell stores the minimum cost so far. Compare three at 
 I first made the mistake of counting all the left nodes, but the question is asking only for the left *leaves*. Should read the problem more carefully before start coding. Once that is cleared up the solution is easy to reach. For each node we just need to check if its left node is a leaf (two null pointers).
 
 Always think of some actual examples before writing the code. That can easily help you avoid some silly mistakes such as misread the problem.
-## 405. 
+## 405. [Convert a Number to Hexadecimal](https://leetcode.com/problems/convert-a-number-to-hexadecimal/description/)
+### Intuition
+Convert hex four bits at a time. Use `num&15` to get the last four bits and store the corresponding hex representation.
+
 ## 406. 
 ## 407. 
 ## 408. 
