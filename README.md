@@ -254,7 +254,10 @@ Therefore, given that it is impossible (in both cases) to discard more majority 
 ## 220. 
 ## 221. 
 ## 222. 
-## 223. 
+## 223. [Rectangle Area](https://leetcode.com/problems/rectangle-area/discuss/62149/Just-another-short-way)
+### Intuition
+Get the overlapping area and subtract from the sum of two rectangle area. Pretty intuitive.
+
 ## 224. 
 ## 225. 
 ## 226. 
