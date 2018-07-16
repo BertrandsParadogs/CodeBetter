@@ -985,7 +985,12 @@ The second loop calculate the maximum increasing height for every building.
 ## 827. 
 ## 828. 
 ## 829. 
-## 830. 
+## 830. [Positions of Large Groups](https://leetcode.com/problems/positions-of-large-groups/discuss/128957/C++JavaPython-Straight-Forward)
+### Intuition
+I thought about using a char variable to store the character of the current group and use a count to keep track of the group size. Once we encounter a different character, we would update the count and at the range of the group into the result list.
+
+The solution uses two pointers, one for tracking the start position of a group, and the other to move forward in the String until encountering a different character. This saves the step of computing the starting index but does not improve the space or time complexity.
+
 ## 831. 
 ## 832. [Flipping an Image](https://leetcode.com/problems/flipping-an-image/description/)
 ### Intuition
