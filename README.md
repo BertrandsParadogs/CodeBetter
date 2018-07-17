@@ -730,7 +730,15 @@ Traverse through the tree. If both nodes are null, the resulting node is null. I
 ## 625. 
 ## 626. 
 ## 627. 
-## 628. 
+## 628. [Maximum Product of Three Numbers](https://leetcode.com/problems/maximum-product-of-three-numbers/description/)
+### Intuition
+Use sorting:
+Time: O(NlogN) Space: O(logN)
+
+One pass:
+Time: O(N) Space: O(1)
+
+Pick your poison.
 ## 629. 
 ## 630. 
 ## 631. 
