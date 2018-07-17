@@ -833,7 +833,14 @@ The minimum of these lengths is the answer.
 ## 716. 
 ## 717. 
 ## 718. 
-## 719. 
+## 719. [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/description/)
+### Intuition
+First sort the words so that the words are ordered first by length and then by alphabetic order.
+Then add all the 1-length words into a Set and all the Strings that can be built from the previous Strings in the Set. Update the result to be the word with the max length so far that is in the built Set.
+
+Trie:
+Build a trie in the normal way, then do a dfs to find the longest continuous downward path from the root. This is not a particularly hard question in the context of trie, the point of this solution is to present a generic way of trie building and inserting that can be easily adapted to similar questions.
+
 ## 720. 
 ## 721. 
 ## 722. 
