@@ -89,7 +89,10 @@ We find the maximum sum we can achieve at each index which has the recurrence re
 ## 80. 
 ## 81. 
 ## 82. 
-## 83. 
+## 83. [Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
+### Intuition
+Skip the next node if the value is the same as the current node.
+
 ## 84. 
 ## 85. 
 ## 86. 
