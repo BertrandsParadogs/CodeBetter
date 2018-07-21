@@ -313,7 +313,10 @@ Dynamic Programming. Each cell stores the minimum cost so far. Compare three at 
 ## 260. 
 ## 261. 
 ## 262. 
-## 263. 
+## 263. [Ugly Number](https://leetcode.com/problems/ugly-number/description/)
+### Intuition
+Repeated divide 2, 3, 5 from the number if divisible. If we end up with 1 that means it is an ugly number.
+
 ## 264. 
 ## 265. 
 ## 266. 
