@@ -793,7 +793,10 @@ But the approach is not that different, first check inbound, then sum up. Pretty
 ## 671. 
 ## 672. 
 ## 673. 
-## 674. 
+## 674. [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)
+### Intuition
+Use count to keep track of the length of current increasing sequence. Reset to 1 if we encounter a non-increasing number.
+
 ## 675. 
 ## 676. 
 ## 677. 
