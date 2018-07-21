@@ -895,7 +895,9 @@ Edge case is when the oldPixel is the same as the newColor, then we just return 
 ## 755. 
 ## 756. 
 ## 757. 
-## 758. 
+## 758. [Bold Words in String](https://leetcode.com/problems/bold-words-in-string/description/)
+### Intuition
+Use a boolean array to keep track of the bold characters. Then one-pass to insert the bold tags.
 ## 759. 
 ## 760. [Find Anagram Mappings](https://leetcode.com/problems/find-anagram-mappings/description/)
 ### Intuition
