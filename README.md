@@ -716,7 +716,10 @@ Preorder tree traversal using DFS. The tricky part is finding out under which co
 ## 613. 
 ## 614. 
 ## 615. 
-## 616. 
+## 616. [Add Bold Tag in String](https://leetcode.com/problems/add-bold-tag-in-string/description/)
+### Intuition
+The same as problem 758. Use a boolean array to keep track of the bold characters.
+
 ## 617. [Merge Two Binary Tree](https://leetcode.com/problems/merge-two-binary-trees/description/)
 ### Intuition
 Traverse through the tree. If both nodes are null, the resulting node is null. If either of them is not null, then we create a new TreeNode with the value equal to their sum. Then we use recursion to repeat the process on the children of the current node.
