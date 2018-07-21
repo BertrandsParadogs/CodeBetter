@@ -156,7 +156,10 @@ For comparing max with the current value, we could simply use `Math.max(cur, max
 ## 138. 
 ## 139. 
 ## 140. 
-## 141. 
+## 141. [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)
+### Intuition
+Use two pointers as in the Floyd's Cycle detection algorithm where one moves two steps at a time and the other one step at a time.
+
 ## 142. 
 ## 143. 
 ## 144. 
