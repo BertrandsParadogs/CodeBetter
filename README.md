@@ -311,7 +311,27 @@ Descending order --> `i2 - i1`
 Dynamic Programming. Each cell stores the minimum cost so far. Compare three at the end.
 `O(N)`
 ## 257. 
-## 258. 
+## 258. [Add Digits](https://leetcode.com/problems/add-digits/description/)
+### Intuition
+The naive approach of iteration or recursion is simple yet can be slow when the number is large.
+The better way with O(1) runtime is to use the idea of a digital root.
+The problem, widely known as digit root problem, has a congruence formula:
+
+https://en.wikipedia.org/wiki/Digital_root#Congruence_formula
+For base b (decimal case b = 10), the digit root of an integer is:
+
+dr(n) = 0 if n == 0
+dr(n) = (b-1) if n != 0 and n % (b-1) == 0
+dr(n) = n mod (b-1) if n % (b-1) != 0
+or
+
+dr(n) = 1 + (n - 1) % 9
+Note here, when n = 0, since (n - 1) % 9 = -1, the return value is zero (correct).
+**From Wikipedia**
+The digital root (also repeated digital sum) of a non-negative integer is the (single digit) value obtained by an iterative process of summing digits, on each iteration using the result from the previous iteration to compute a digit sum. The process continues until a single-digit number is reached.
+
+Digital roots can be used as a sort of checksum, to check that a sum has been performed correctly. If it has, then the digital root of the sum of the given numbers will equal the digital root of the sum of the digital roots of the given numbers.
+
 ## 259. 
 ## 260. 
 ## 261. 
