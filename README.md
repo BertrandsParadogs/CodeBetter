@@ -718,7 +718,11 @@ Another way is to use regex matching.
 ## 591. 
 ## 592. 
 ## 593. 
-## 594. 
+## 594. [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/description/)
+### Intuition
+The idea is to keep a count of all the numbers, and eventually for each of the numbers, check if there's any adjacent number. If it's present, then add the count of both - since these two numbers form subsequence in the array.
+Note that the difference between max and min must be **exactly** 1.
+
 ## 595. 
 ## 596. 
 ## 597. 
