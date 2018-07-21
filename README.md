@@ -923,7 +923,11 @@ Edge case is when the oldPixel is the same as the newColor, then we just return 
 ## 744. 
 ## 745. 
 ## 746. 
-## 747. 
+## 747. [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)
+### Intuition
+One pass O(N).
+Keep track of the largest and the second largest element. Then compare in the end.
+
 ## 748. 
 ## 749. 
 ## 750. 
