@@ -827,7 +827,10 @@ But the approach is not that different, first check inbound, then sum up. Pretty
 ## 668. 
 ## 669. 
 ## 670. 
-## 671. 
+## 671. [Second Minimum Node In a Binary Tree](https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/description/)
+### Intuition
+If the child node has the same value as the parent node, we recurse to find the next candidate. If no candidate is found, return -1.
+
 ## 672. 
 ## 673. 
 ## 674. [Longest Continuous Increasing Subsequence](https://leetcode.com/problems/longest-continuous-increasing-subsequence/description/)
