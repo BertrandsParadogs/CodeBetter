@@ -499,7 +499,13 @@ Convert hex four bits at a time. Use `num&15` to get the last four bits and stor
 ## 406. 
 ## 407. 
 ## 408. 
-## 409. 
+## 409. [Longest Palindrome](https://leetcode.com/problems/longest-palindrome/description/)
+### Intuition
+Several ways to do this with the idea of using a HashTable to accumulate the character frequency. Could use a array since there are only lower and upper case letters.
+- HashSet (Add/Remove to remove a pair of elements, check if set empty in the end to determine parity)
+- HashMap (First tally the frequencies then count the value set)
+- Array (Similar idea as HashMap)
+- 
 ## 410. 
 ## 411. 
 ## 412. 
