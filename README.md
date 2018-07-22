@@ -241,7 +241,11 @@ Therefore, given that it is impossible (in both cases) to discard more majority 
 ## 199. 
 ## 200. 
 ## 201. 
-## 202. 
+## 202. [Happy Number](https://leetcode.com/problems/happy-number/description/)
+### Intuition
+Took a shortcut, if the resulting number is 1 or 7. It is a happy number.
+Recursively repeat the process.
+
 ## 203. 
 ## 204. 
 ## 205. 
