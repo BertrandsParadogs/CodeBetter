@@ -110,7 +110,10 @@ Skip the next node if the value is the same as the current node.
 ## 98. 
 ## 99. 
 ## 100. 
-## 101. 
+## 101. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
+### Intuition
+Compare left.left with right.right and left.right with right.left.
+
 ## 102. 
 ## 103. 
 ## 104. 
