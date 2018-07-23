@@ -699,7 +699,10 @@ Another way is to use regex matching.
 ## 556. 
 ## 557. 
 ## 558. 
-## 559. 
+## 559. [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/)
+### Intuition
+Easy DFS. Use a private variable to keep track of the max depth.
+
 ## 560. 
 ## 561. 
 ## 562. 
