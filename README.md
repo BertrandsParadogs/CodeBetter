@@ -176,7 +176,11 @@ Use two pointers as in the Floyd's Cycle detection algorithm where one moves two
 
 ## 142. 
 ## 143. 
-## 144. 
+## 144. [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/description/)
+### Intuition
+Recursive is trivial.
+Use a Stack for iterative, same idea as the N-ary tree preorder traversal. Push in the elements in reverse order. Note that we need to check for null since there are not a list of children nodes.
+
 ## 145. 
 ## 146. 
 ## 147. 
