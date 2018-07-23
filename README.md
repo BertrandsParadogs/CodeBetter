@@ -109,7 +109,10 @@ Skip the next node if the value is the same as the current node.
 ## 97. 
 ## 98. 
 ## 99. 
-## 100. 
+## 100. [Same Tree](https://leetcode.com/problems/same-tree/description/)
+### Intuition
+The two nodes must either be both null or have the same value to return true. We can recursively traverse through the tree and check these conditions at each level.
+
 ## 101. [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/description/)
 ### Intuition
 Compare left.left with right.right and left.right with right.left.
