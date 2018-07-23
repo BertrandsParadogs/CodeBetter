@@ -745,7 +745,11 @@ Recurse on the left/right subtree of the first tree.
 ## 587. 
 ## 588. 
 ## 589. 
-## 590. 
+## 590. [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)
+### Intuition
+Recursion: trivial post-order traversal
+Iterative: Using a stack, the order of pop() from the stack is in exact reverse order of the postorder traversal. Using `Collections.reverse()` in the end to reverse the order.
+
 ## 591. 
 ## 592. 
 ## 593. 
