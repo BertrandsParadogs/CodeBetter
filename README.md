@@ -743,7 +743,10 @@ Note that the difference between max and min must be **exactly** 1.
 ## 596. 
 ## 597. 
 ## 598. 
-## 599. 
+## 599. [Minimum Index Sum of Two Lists](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)
+### Intuition
+Get the indices of Strings in the first list, then find common interest in the second list. Put the common interst in a set and calculate the min index sum. Then use the min index sum to get the corresponding String key in the map.
+
 ## 600. 
 ## 601. 
 ## 602. 
