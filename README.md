@@ -744,7 +744,11 @@ Recurse on the left/right subtree of the first tree.
 ## 586. 
 ## 587. 
 ## 588. 
-## 589. 
+## 589. [N-ary Tree Preorder Traversal](https://leetcode.com/problems/n-ary-tree-preorder-traversal/description/)
+### Intuition
+Recursive Solution is trivial.
+For iterative, use a stack to push the elements in reverse order, this way the next popped item will be from the most recent layer. Using a queue would yield a level view of the tree (BFS).
+
 ## 590. [N-ary Tree Postorder Traversal](https://leetcode.com/problems/n-ary-tree-postorder-traversal/description/)
 ### Intuition
 Recursion: trivial post-order traversal
