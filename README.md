@@ -116,7 +116,12 @@ Compare left.left with right.right and left.right with right.left.
 
 ## 102. 
 ## 103. 
-## 104. 
+## 104. [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/)
+### Intuition
+Recursion DFS
+1 + ... + ...
+Since we are finding the max depth, we need to take the max of the left and right subtree for each level of the recursion. 
+
 ## 105. 
 ## 106. 
 ## 107. 
