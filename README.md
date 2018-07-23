@@ -723,7 +723,11 @@ Easy DFS. Use a private variable to keep track of the max depth.
 ## 569. 
 ## 570. 
 ## 571. 
-## 572. 
+## 572. [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
+### Intuition
+Use the same function for the isSameTree to examine if any of the subtrees of the first tree is the same tree as the second tree.
+Recurse on the left/right subtree of the first tree.
+
 ## 573. 
 ## 574. 
 ## 575. 
