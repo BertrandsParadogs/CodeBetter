@@ -23,7 +23,10 @@
 ## 19. 
 ## 20. 
 ## 21. 
-## 22. 
+## 22. [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)
+### Intuition
+Classic backtrack problem. Use open < max and close < open as conditions for exploring all possibilities that satisfy the well-formed parentheses condition. 
+
 ## 23. 
 ## 24. 
 ## 25. 
