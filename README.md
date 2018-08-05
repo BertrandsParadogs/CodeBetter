@@ -984,7 +984,10 @@ Edge case is when the oldPixel is the same as the newColor, then we just return 
 ## 741. 
 ## 742. 
 ## 743. 
-## 744. 
+## 744. [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/)
+### Intuition
+Binary Search. Check wrap around first or use `index % N` at the end.
+
 ## 745. 
 ## 746. 
 ## 747. [Largest Number At Least Twice of Others](https://leetcode.com/problems/largest-number-at-least-twice-of-others/description/)
