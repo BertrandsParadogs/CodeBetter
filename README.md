@@ -206,7 +206,10 @@ Use a Stack for iterative, same idea as the N-ary tree preorder traversal. Push 
 ## 164. 
 ## 165. 
 ## 166. 
-## 167. 
+## 167. [Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)
+### Intuition
+Use two pointers. Since there is guaranteed to be a solution. Just shift either pointer towards the other based on their `sum` and the `target` until the `sum` is equal to the `target`.
+
 ## 168. 
 ## 169. [Majority Element](https://leetcode.com/problems/majority-element/description/)
 **The Boyer–Moore majority vote algorithm** is an algorithm for finding the majority of a sequence of elements using linear time and constant space. 
