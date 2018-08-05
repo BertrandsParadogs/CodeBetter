@@ -1223,7 +1223,11 @@ Keep track of the change (5 and 10 dollar bills). Subtract the number of change 
 ## 884. 
 ## 885. 
 ## 886. 
-## 887. 
+## 887. [Projection Area of 3D Shapes](https://leetcode.com/contest/weekly-contest-96/problems/projection-area-of-3d-shapes/)
+### Intuition
+Top view is just the number of cells that are non-zero. The side views are the sum of the max in each row and column.
+Time: `O(N^2)`
+
 ## 888. 
 ## 889. 
 ## 890. 
