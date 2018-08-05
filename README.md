@@ -401,7 +401,14 @@ Repeated divide 2, 3, 5 from the number if divisible. If we end up with 1 that m
 ## 285. 
 ## 286. 
 ## 287. 
-## 288. 
+## 288. [Unique Word Abbreviation](https://leetcode.com/problems/unique-word-abbreviation/description/)
+### Intuition
+I used a map to keep track of the frequency of each abbreviation and a set for the words we've seen.
+Under three conditions isUnique will return true:
+1. word length is less than or equal to 2
+2. We've seen this word and its abbreviation only appeared once in the dictionary
+3. We've not seen this word and its abbrevation does not exist in the dictionary
+
 ## 289. 
 ## 290. 
 ## 291. 
