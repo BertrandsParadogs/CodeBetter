@@ -230,7 +230,16 @@ Here, the `7` at index `0` is selected to be the first candidate for majority el
 Now, the majority element is `5` (we changed the last run of the array from `7s` to `5s`), but our first candidate is still `7`. In this case, our candidate is not the true majority element, but we still cannot discard more majority elements than minority elements (this would imply that count could reach `-1` before we reassign candidate, which is obviously false).
 
 Therefore, given that it is impossible (in both cases) to discard more majority elements than minority elements, we are safe in discarding the prefix and attempting to recursively solve the majority element problem for the suffix. Eventually, a suffix will be found for which count does not hit `0`, and the majority element of that suffix will necessarily be the same as the majority element of the overall array.
-## 170. 
+## 170. [Two Sum III - Data structure design](https://leetcode.com/problems/two-sum-iii-data-structure-design/description/)
+### Intuition
+This is a data structure design problem so it's always a good idea to consider trade-offs of different approaches.
+
+#### Add `O(N)` Find `O(1)`
+We would like to find if there are two elements that sum up to the target. The fastest way to do this is to store all the possible sums when we are adding a new number. The trade-off is that add becomes slower. OJ actually has a stress test with a lot of adds that fails this approach. I would imagine this approach is not preferred in most situation since we add data more frequently than we query them.
+
+#### Add `O(1)` Find `O(N)`
+In this approach we just keep one HashMap to store the frequency of elements we have added. Therefore, add is quick. But the lookup takes more time since we may need to examine most of the elements we've seen before to find a match.
+
 ## 171. 
 ## 172. 
 ## 173. 
