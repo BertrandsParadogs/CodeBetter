@@ -848,7 +848,10 @@ Pick your poison.
 ## 650. 
 ## 651. 
 ## 652. 
-## 653. 
+## 653. [Two Sum IV - Input is a BST](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/description/)
+### Intuition
+Use a HashSet to track the numbers seen. Run a DFS to traverse through the nodes in the tree. If `target - cur_num` is present in the HashSet, there exist such two elements with sum equal to target.
+
 ## 654. 
 ## 655. 
 ## 656. 
