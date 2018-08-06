@@ -986,7 +986,10 @@ Edge case is when the oldPixel is the same as the newColor, then we just return 
 ## 736. 
 ## 737. 
 ## 738. 
-## 739. 
+## 739. [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/)
+### Intuition
+Use a stack to store the indices not the actual temperature. This way we can easily find the corresponding temperature that we have pushed in earlier.
+
 ## 740. 
 ## 741. 
 ## 742. 
