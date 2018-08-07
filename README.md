@@ -941,7 +941,10 @@ The minimum of these lengths is the answer.
 ## 706. 
 ## 707. 
 ## 708. 
-## 709. 
+## 709. [To Lower Case](https://leetcode.com/problems/to-lower-case/description/)
+### Intuition
+Only modify the upper case letter. The difference between the lowercase and upper case is 32. Upper starts at 65, Lower starts at 97.
+
 ## 710. 
 ## 711. 
 ## 712. 
