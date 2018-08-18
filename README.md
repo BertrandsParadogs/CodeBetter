@@ -393,7 +393,11 @@ Repeated divide 2, 3, 5 from the number if divisible. If we end up with 1 that m
 ## 277. 
 ## 278. 
 ## 279. 
-## 280. 
+## 280. [Wiggle Sort](https://leetcode.com/problems/wiggle-sort/description/)
+### Intuition
+One pass O(N) solution. Write an extra swap function to swap the current and previous element.
+The basic idea is that the even indexed element must be less or equal to the previous and the odd must be greater or equal to the previous. So we would only need to check for instances where the rule is violated and fix those along the pass.
+
 ## 281. 
 ## 282. 
 ## 283. 
