@@ -1109,7 +1109,16 @@ public int numJewelsInStones(String J, String S) {
 ### Intuition
 All rotations of `A` are contained in `B+B`. Thus, we can simply check whether `A` is a substring of `B+B`. We also need to check `A.length == B.length`, otherwise we will fail cases like `A = "a", B = "aa"`.
 
-## 797. 
+## 797. [All Paths From Source to Target](https://leetcode.com/problems/all-paths-from-source-to-target/description/)
+### Intuition
+Recursive DFS solution. Traverse each path starting from the first node. Add to result when the current node is the end node. Backtrack after each recursion to try different path.
+
+**Backtrack:**
+for each child of the node
+	- add node
+	- --recurse--
+	- remove node
+
 ## 798. 
 ## 799. 
 ## 800. 
