@@ -75,7 +75,12 @@ We find the maximum sum we can achieve at each index which has the recurrence re
 ## 63. 
 ## 64. 
 ## 65. 
-## 66. 
+## 66. [Plus One](https://leetcode.com/problems/plus-one/description/)
+### Intuition
+So we only have to consider two cases.
+In the first case, we increment the last digit, if it has a carry bit, then we change it to zero and move on to the next digit. If not, we stop. The first case is that the leading digit does not become zero by the procedure.
+In the second case, leading digit is zero meaning that the original number is 99...99. So we need to create a new array with a size that is one larger than the original with the leading digit as one and zeros elsewhere.
+
 ## 67. 
 ## 68. 
 ## 69. 
@@ -493,7 +498,15 @@ Under three conditions isUnique will return true:
 ## 366. 
 ## 367. 
 ## 368. 
-## 369. 
+## 369. [Plus One Linked List](https://leetcode.com/problems/plus-one-linked-list/description/)
+### Intuition
+Iterative:
+Keep a pointer to the last digit that is not nine, increment that digit and set all the digits after that digit to be zero.
+If there is no such digit, then the number is 999...999. Add a new node with value 1 at the front and set the rest of the nodes to zero.
+
+Recursive:
+We want to start from the back of the linked list. Think of a linked list as a tree with only one branch at each level. A depth first search would work here.
+
 ## 370. 
 ## 371. 
 ## 372. 
@@ -1256,7 +1269,12 @@ Keep track of the change (5 and 10 dollar bills). Subtract the number of change 
 ## 873. 
 ## 874. 
 ## 875. 
-## 876. 
+## 876. [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/)
+### Intuition
+Have two pointers, one jump one step at a time and the other two steps at a time.
+When the fast runner reach the end of the linked list, the slow runner is the middle node.
+
+
 ## 877. 
 ## 878. 
 ## 879. 
