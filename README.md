@@ -1282,7 +1282,16 @@ When the fast runner reach the end of the linked list, the slow runner is the mi
 ## 881. 
 ## 882. 
 ## 883. 
-## 884. 
+## 884. [Uncommon Words from Two Sentences](https://leetcode.com/problems/uncommon-words-from-two-sentences/description/)
+### Intuition
+Use a hashtable to keep track of the frequency of the all the words. Return those with only one occurrence.
+
+### WIL
+We could simply concatenate A and B instead of doing two loops.
+
+`map.put(key, map.getOrDefault(key, default)+1)` for counting frequency.
+
+
 ## 885. 
 ## 886. 
 ## 887. [Projection Area of 3D Shapes](https://leetcode.com/contest/weekly-contest-96/problems/projection-area-of-3d-shapes/)
