@@ -1299,7 +1299,10 @@ We could simply concatenate A and B instead of doing two loops.
 Top view is just the number of cells that are non-zero. The side views are the sum of the max in each row and column.
 Time: `O(N^2)`
 
-## 888. 
+## 888. [Fair Candy Swap](https://leetcode.com/problems/fair-candy-swap/description/)
+### Intuition
+Difference of the sum of each array is double the difference of the resulting two swapping elements. So we can first get that difference and find the pair of elements that has the half of the difference found.
+
 ## 889. 
 ## 890. 
 ## 891. 
