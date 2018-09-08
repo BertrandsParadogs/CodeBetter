@@ -784,7 +784,12 @@ Recurse on the left/right subtree of the first tree.
 
 ## 573. 
 ## 574. 
-## 575. 
+## 575. [Distribute Candies](https://leetcode.com/problems/distribute-candies/description/
+### Intuition
+Too Easy...
+One line
+`return Math.min(candies.length / 2, ((int) Arrays.stream(candies).distinct().count()));`
+
 ## 576. 
 ## 577. 
 ## 578. 
