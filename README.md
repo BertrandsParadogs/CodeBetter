@@ -425,7 +425,15 @@ Under three conditions isUnique will return true:
 ## 293. 
 ## 294. 
 ## 295. 
-## 296. 
+## 296. [Best Meeting Point](https://leetcode.com/problems/best-meeting-point/description/)
+### Intuition
+Simplify the problem. If it is manhatten distance, we could probably look at the two dimension seperately as to reduce complexity of the problem.
+The tricky part is to know that the median of the coordinates is the place with the minimum total distance from all other points.
+We could just sort the coordinates and find the median.
+Another simplification:
+`(med - start) + ... + (end - med) = (end - start) + ...`
+Keep two pointers to get all pairs and calculate the median.
+
 ## 297. 
 ## 298. 
 ## 299. 
@@ -455,7 +463,10 @@ Under three conditions isUnique will return true:
 ## 323. 
 ## 324. 
 ## 325. 
-## 326. 
+## 326. [Power of Three](https://leetcode.com/problems/power-of-three/description/)
+### Intuition
+Find the maximum integer that is a power of 3 and check if it is a multiple of the given input
+
 ## 327. 
 ## 328. 
 ## 329. 
