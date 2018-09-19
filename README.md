@@ -2,7 +2,12 @@
 
 # LeetCode
 
-## 1. 
+## 1. [Two Sum](https://leetcode.com/problems/two-sum/description/)
+### Intuition
+Use a HashMap to store the element we have seen and its correponding index. Look up in the HashMap for each element if its difference from target is present.
+### WIL
+Use HashMap for constant time look up.
+
 ## 2. 
 ## 3. 
 ## 4. 
@@ -346,7 +351,16 @@ First sort the intervals in ascending order based on their start time. Then dete
 Ascending order --> `i1 - i2`
 Descending order --> `i2 - i1`
 ## 253. 
-## 254. 
+## 254. [Factor Combinations](https://leetcode.com/problems/factor-combinations/discuss/68040/My-Recursive-DFS-Java-Solution)
+### Intuition
+Recursive backtracking.
+Could have a version that runs from 2 to n for each n. Better way is to examine from 2 to root n, and add the pair (i, n/i) into the result factors list.
+This way we are essentially breaking up the big problem:
+n -> x, n/x
+backtrack
+n-> x, y, n/x/y ...
+
+
 ## 255. 
 ## 256. [Paint House](https://leetcode.com/problems/paint-house/description/)
 ### Intuition
