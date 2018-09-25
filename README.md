@@ -554,7 +554,15 @@ We want to start from the back of the linked list. Think of a linked list as a t
 ## 389. 
 ## 390. 
 ## 391. 
-## 392. 
+## 392. [Is Subsequence](https://leetcode.com/problems/is-subsequence/description/)
+### Intuition
+Trivial O(N) two pointer solution.
+
+Follow up is the interesting part. 
+**Follow up:**
+If there are lots of incoming S, say S1, S2, ... , Sk where k >= 1B, and you want to check one by one to see if T has its subsequence. In this scenario, how would you change your code?
+
+
 ## 393. 
 ## 394. 
 ## 395. 
